@@ -1,0 +1,92 @@
+@media (min-width: 320px) and (max-width: 375px) {
+
+    .grid-header {
+        height: 72px;
+    }
+
+    .grid-content {
+        display: grid;
+        height: calc(100vh - 176px);
+        padding: 16px;
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+        grid-template-columns: 1.5fr 2fr 1fr 1fr 2fr 1.5fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+            'darkblue  lightblue lightblue lightblue lightblue lightblue'
+            'gray1 gray1 gray1 darkgray darkgray darkgray'
+            'gray2 gray2 gray3 gray3 gray4 gray4'
+    }
+
+    .grid-footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 72px;
+        grid-template-areas:
+            'footer footer footer';
+    }
+
+    .header {
+        background: #787885;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.48), 0 0 4px rgba(0, 0, 0, 0.12);
+        border-radius: 10px;
+        grid-area: header;
+    }
+
+    .gray1 {
+        background: #F0F0F1;
+        border-radius: 10px;
+        grid-area: gray1;
+    }
+
+    .gray2 {
+        background: #F0F0F1;
+        border-radius: 10px;
+        grid-area: gray2;
+    }
+
+    .gray3 {
+        display: block;
+        background: #F0F0F1;
+        border-radius: 10px;
+        grid-area: gray3;
+    }
+
+    .gray4 {
+        display: block;
+        background: #F0F0F1;
+        border-radius: 10px;
+        grid-area: gray4;
+    }
+
+    .darkgray {
+        background: #E1E1E3;
+        border-radius: 10px;
+        grid-area: darkgray;
+    }
+
+    .lightblue {
+        background: #D8E6FF;
+        border-radius: 10px;
+        grid-area: lightblue;
+    }
+
+    .darkblue {
+        display: block;
+        background: #C4DAFF;
+        border-radius: 10px;
+        grid-area: darkblue;
+    }
+
+    .footer {
+        display: block;
+        background: #FFFFFF;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.24), 0 0 8px rgba(0, 0, 0, 0.12);
+        border-radius: 10px;
+        grid-area: footer;
+    }
+
+    .white {
+        display: none;
+    }
+}
