@@ -18,7 +18,7 @@
             'gray2 gray2 gray3 gray3 gray4 gray4'
     }
 
-    .grid-footer {
+    .grid-footer__footer {
         display: grid;
         grid-template-columns: 1fr;
         height: 72px;
@@ -26,59 +26,59 @@
             'footer footer footer';
     }
 
-    .header {
+    .grid-header__header {
         background: #787885;
         box-shadow: 0 0 1px rgba(0, 0, 0, 0.48), 0 0 4px rgba(0, 0, 0, 0.12);
         border-radius: 10px;
         grid-area: header;
     }
 
-    .gray1 {
+    .grid-content__gray1 {
         background: #F0F0F1;
         border-radius: 10px;
         grid-area: gray1;
     }
 
-    .gray2 {
+    .grid-content__gray2 {
         background: #F0F0F1;
         border-radius: 10px;
         grid-area: gray2;
     }
 
-    .gray3 {
+    .grid-content__gray3 {
         display: block;
         background: #F0F0F1;
         border-radius: 10px;
         grid-area: gray3;
     }
 
-    .gray4 {
+    .grid-content__gray4 {
         display: block;
         background: #F0F0F1;
         border-radius: 10px;
         grid-area: gray4;
     }
 
-    .darkgray {
+    .grid-content__darkgray {
         background: #E1E1E3;
         border-radius: 10px;
         grid-area: darkgray;
     }
 
-    .lightblue {
+    .grid-content__lightblue {
         background: #D8E6FF;
         border-radius: 10px;
         grid-area: lightblue;
     }
 
-    .darkblue {
+    .grid-content__darkblue {
         display: block;
         background: #C4DAFF;
         border-radius: 10px;
         grid-area: darkblue;
     }
 
-    .footer {
+    .grid-footer__footer {
         display: block;
         background: #FFFFFF;
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.24), 0 0 8px rgba(0, 0, 0, 0.12);
@@ -86,7 +86,7 @@
         grid-area: footer;
     }
 
-    .white {
+    .grid-content__white {
         display: none;
     }
 }

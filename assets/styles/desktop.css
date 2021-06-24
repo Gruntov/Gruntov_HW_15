@@ -19,44 +19,44 @@
             'white gray1 lightblue gray2'
 }
 
-.header {
+.grid-header__header {
     background: #787885;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.48), 0 0 4px rgba(0, 0, 0, 0.12);
     border-radius: 10px;
     grid-area: header;
 }
 
-.white {
+.grid-content__white {
     background: #FFFFFF;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.24), 0 0 32px rgba(0, 0, 0, 0.12);
     border-radius: 10px;
     grid-area: white;
 }
 
-.gray2 {
+.grid-content__gray2 {
     background: #F0F0F1;
     border-radius: 10px;
     grid-area: gray2;
 }
 
-.gray1 {
+.grid-content__gray1 {
     background: #F0F0F1;
     border-radius: 10px;
     grid-area: gray1;
 }
 
-.darkgray {
+.grid-content__darkgray {
     background: #E1E1E3;
     border-radius: 10px;
     grid-area: darkgray;
 }
 
-.lightblue {
+.grid-content__lightblue {
     background: #D8E6FF;
     border-radius: 10px;
     grid-area: lightblue;
 }
 
-.footer,.gray3,.gray4,.darkblue {
+.grid-footer__footer,.grid-content__gray3,.grid-content__gray4,.grid-content__darkblue {
     display: none;
 }
